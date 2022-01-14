@@ -2,8 +2,6 @@
  * File: LRU.c
  * @author: Doğukan Özdemir <dogu757@gmail.com>
  * Date: 14.01.2022
- * Last Modified Date: 13.03.2016
- * Last Modified By: Your Name <your@mail>
  */
 
 
