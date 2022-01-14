@@ -19,11 +19,6 @@ Ideally, if lots of users request the same recipe, you'd like to only read it in
 
 A cache is just fast storage. Reading data from a cache takes less time than reading it from something else (like a hard disk).
 
-Here's the catch: caches are small. You can't fit everything in a cache, so you're still going to have to use larger, slower storage from time to time.
-
-If you can't fit everything in the cache, how do you decide what the cache should store? 
-
-
 # Complexity Analysis
 
 | Costs       |  Worst Case |
