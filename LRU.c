@@ -394,9 +394,9 @@ int get_next_prime(int n)
 /*
 Example Usage:
 
-With a cach length of 4, adding 5 items to the cache and retrieve 2 of them.
+With a cache length of 4, add 5 items to the cache and retrieve 2 of them.
 Here, you can use the 'print_hashmap' and 'print_cache' functions
-To see how each actipn affects the cache and the hashmap.
+To see how each action affects the cache and the hashmap.
 */
 
 int main()
