@@ -326,12 +326,15 @@ void remove_hash(char *key, Hashmap **hashmap, int M)
         {
             return;
         }
-        if (!strcmp(currentPair->key, key))
-        {
-            hashmap[(hash1 + i * hash2) % M] = NULL;
-        }
-        i++;
-    }
+       if (!strcmp(currentPair->key, key))
+{
+    free(currentPair->node);  
+    free(currentPair);       
+    hashmap[(hash1 + i * hash2) % M] = NULL;  
+    return; 
+}
+}
+
 }
 
 // Print the Hashmap
